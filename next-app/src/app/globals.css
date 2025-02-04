@@ -1,0 +1,128 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.create-button {
+    padding: 5px 8px;
+    background-color: #701f9e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.save-button {
+    padding: 5px 8px;
+    background-color: #07af2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.edit-button {
+    padding: 5px 8px;
+    background-color: #f04b09;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.delete-button {
+    padding: 5px 8px;
+    background-color: #d80e0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.back-link {
+    padding: 5px 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rud {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #f0f0f0;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: rgb(145, 216, 117);
+    background-color: rgb(197, 195, 195);
+    border-radius: 15px;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #555;
+    background-color: rgb(197, 195, 195);
+    border-radius: 15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+
+

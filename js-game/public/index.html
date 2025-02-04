@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/site.css" />
+    <title>Breakout</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="js/app.js" type="module"></script>
+
+    <span id="score">Score: 0</span>
+    <span id="lives">Lives: 0</span>
+
+    <span id="pause-menu" style="display: none;"> 
+      <h1 id="pause-title">Pause Menu</h1>
+      <button id="resume-button">Resume</button>
+      <button id="newgame-button">New Game</button>
+    </span>
+
+    <section id="leaderboard">
+        <h3 class="topscore">Top Scores</h3>
+        <ul id="best-results"></ul>
+    </section>
+
+    <span id="start-message" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgb(233, 91, 91); padding: 20px; text-align: center; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+        <h1>Press SPACE to start</h1>
+
+    <span id="win-message" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px;">
+        <h1>Congratulations!</h1>
+        <button id="newgame-button">New Game</button>
+    </span>
+</body>
+</html>
